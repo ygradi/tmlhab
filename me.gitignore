@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+env/
+venv/
+pip-log.txt
+*.egg-info/
+dist/
+build/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+renv/library/
+renv/staging/
+
+# Data / outputs
+/data/
+/data_raw/
+/results/
+/outputs/
+Feature_importance_ranking/
+CV_Detailed_Results/
+Best_Model_*/
+*.xlsx
+*.csv
+*.rds
+*.RData
+*.pdf
+*.nrrd
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# model artifacts
+models/
+*.model
+checkpoints/
+
+# secrets
+.env
+*.key
+*.pem
