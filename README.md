@@ -1,7 +1,6 @@
-# BCHER2PET
-Ternary Classification Prediction and Heterogeneity Quantification
+# Introduction
+Ternary Classification Prediction and Heterogeneity Quantification for HER2 in Breast Cancer using HER2-targeted PET/CT imaging
 
-# Project repo — integrated pipelines
 This repository contains multiple analysis pipelines:
 - python/habitat: voxel-level radiomics -> clustering -> habitat masks
 - python/comparison: Friedman-Nemenyi model comparison utilities
